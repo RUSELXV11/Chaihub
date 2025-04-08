@@ -1,0 +1,24 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+
+# Ignore wp-config.php (keep it local)
+wp-config.php
+
+# Ignore upload folder (media files)
+wp-content/uploads/
+
+# Ignore cache or backup files
+wp-content/cache/
+wp-content/backups/
+
+# Ignore Docker files (optional)
+docker-compose.override.yml
+.docker/
+.env
+
+# Other unnecessary files
+*.log
+node_modules/
+vendor/
+*.swp
